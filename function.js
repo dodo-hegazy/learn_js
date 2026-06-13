@@ -8,10 +8,12 @@
   - Practical Example
 */
 
-function sayHello(userName) {
-  console.log(`Hi ${userName}`);
+function sayHowOldAreYou(userName, yearsOld) {
+  console.log(`Hi ${userName}, you are ${yearsOld} years old.`);
 }
 
-sayHello("Osama");
-sayHello("Sayed");
-sayHello("Ali");
+sayHowOldAreYou("Osama", 30);
+sayHowOldAreYou("Sayed", 25);
+sayHowOldAreYou("Ali", 35);
+
+console.log(typeof console.log); // function
