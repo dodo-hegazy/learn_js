@@ -1,5 +1,5 @@
-const ali ="Iam omar and my brother is ali";
-console.log(ali);
+let my_dreame ="i want to gain money from programming in one day😂";
+console.log(my_dreame);
 console.log(`The character at index 6 '${ali.charAt(6)}'`);
 console.log(`The character at index 10 '${ali.charAt(10)}'`);
 console.log(`The character at index 12 '${ali.charAt(12)}'`);
